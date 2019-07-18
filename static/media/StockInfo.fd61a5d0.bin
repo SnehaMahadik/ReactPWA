@@ -1,0 +1,6 @@
+export default class StockInfo {
+  constructor(rank, suit) {
+    this.rank = rank;
+    this.suit = suit;
+  }
+}
