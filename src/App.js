@@ -119,7 +119,11 @@ class App extends Component {
         />
         {this.state.StockInfoComponentVisible ? (
           <div>
-            TotalFillQty: <p>{stockInfo.totalFillQty}</p>
+            <h3 >TotalFillQty: {stockInfo.totalFillQty}</h3>
+          
+            <h3 >Start Of Day Qty: {stockInfo.startOfDayQty} </h3>
+           
+            <h3 >End Of Day Qty: {stockInfo.endOfDayQty}</h3>
           </div>
         ) : (
           <div>
